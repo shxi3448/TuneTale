@@ -14,3 +14,37 @@ The dataset we plan to use has 114,000 tracks from Spotify's API. Here is the li
 [Spotify Tracks Dataset | Audio Features](https://www.kaggle.com/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features)
 
 
+## Setup & Running the Dataset Download
+
+### Prerequisites
+1. **Get a Kaggle API Token:**
+   - Go to https://www.kaggle.com/settings/account
+   - Click "Create New API Token" (downloads `kaggle.json`)
+   - Copy the token value
+
+2. **Create `.env` file** in the project root:
+   ```
+   export KAGGLE_API_TOKEN=YOUR_TOKEN_HERE
+   ```
+   Replace `YOUR_TOKEN_HERE` with the token from step 1.
+
+### Running the Script
+
+1. **Activate the virtual environment:**
+   ```bash
+   source .venv/bin/activate
+   ```
+
+2. **Load the API token and run the download:**
+   ```bash
+   source .env && python download_dataset.py
+   ```
+
+   This will download the Spotify dataset (~7.9MB) to your local cache. On subsequent runs, it will use the cached version (no re-download).
+
+3. **The dataset path will be printed:**
+   ```
+   Path to dataset files: /Users/YOUR_USERNAME/.cache/kagglehub/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features/versions/1
+   ```
+
+**Note:** The `.env` file is gitignored for security—don't commit your API token!
