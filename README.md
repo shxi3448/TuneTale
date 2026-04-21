@@ -9,12 +9,12 @@ With millions of songs on Spotify, it's hard for users to discover music outside
 We plan to use Spotify datasets from Kaggle that contain thousands of tracks, each labeled with audio features such as danceability, energy, and loudness. After normalizing these features to a common scale, we use K-Nearest Neighbors to find the songs closest to a given track in feature space and return them as recommendations.
 
 ## *Dataset*
-The dataset we plan to use has 114,000 tracks from Spotify's API. Here is the link: 
+The dataset we plan to use has 114,000 tracks from 114 different genres from Spotify's API. Here is the link: 
 
 [Spotify Tracks Dataset | Audio Features](https://www.kaggle.com/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features)
 
 
-## Setup & Running the Dataset Download
+## *Setup & Running the Dataset Download*
 
 ### Prerequisites
 1. **Get a Kaggle API Token:**
