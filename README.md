@@ -48,3 +48,4 @@ The dataset we plan to use has 114,000 tracks from 114 different genres from Spo
    ```
 
 **Note:** The `.env` file is gitignored for security—don't commit your API token!
+
