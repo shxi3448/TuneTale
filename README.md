@@ -47,5 +47,5 @@ The dataset we plan to use has 114,000 tracks from 114 different genres from Spo
    Path to dataset files: /Users/YOUR_USERNAME/.cache/kagglehub/datasets/saichaitanyareddyai/spotify-tracks-dataset-audio-features/versions/1
    ```
 
-**Note:** The `.env` file is gitignored for security—don't commit your API token!
+**Note:** The `.env` file is gitignored for security. Don't commit your API token!
 
