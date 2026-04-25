@@ -143,7 +143,7 @@ Query: 'Sweater Weather' by The Neighbourhood [alt-rock] — genre-filtered (alt
 - Genre Precision@10: 16.5%
 - Best for exploring different genres
 
-### Genre-Filtered Mode ⭐ (Recommended)
+### Genre-Filtered Mode (Recommended)
 - Genre Precision@10: 100%
 - Best for staying within a genre
 - More consistent recommendations
