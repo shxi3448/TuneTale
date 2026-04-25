@@ -18,6 +18,4 @@ dest_file = data_dir / "tracks.csv"
 
 shutil.copy(source_file, dest_file)
 
-print(f"✓ Dataset downloaded successfully!")
-print(f"✓ Copied to: {dest_file}")
-print(f"✓ Ready to use in your notebooks!")
+print(f"Dataset downloaded successfully. Copied to: {dest_file}")
